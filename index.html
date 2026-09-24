@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Avin Raj | Embedded Systems & IoT</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fa;
+            color: #222;
+        }
+
+        header {
+            background: #0b1f33;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            font-size: 24px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #4db8ff;
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            padding: 60px 8%;
+            background: white;
+        }
+
+        .hero-content {
+            max-width: 700px;
+        }
+
+        .hero h1 {
+            font-size: 52px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #087ea4;
+        }
+
+        .hero h3 {
+            font-size: 25px;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .hero p {
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 13px 25px;
+            background: #087ea4;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-right: 10px;
+        }
+
+        .button:hover {
+            background: #055b76;
+        }
+
+        .about {
+            padding: 70px 8%;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            max-width: 800px;
+            margin: auto;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.project-card {
+    background: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.project-card h3 {
+    margin-bottom: 15px;
+    color: #087ea4;
+}
+
+.project-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+        footer {
+            background: #0b1f33;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 8px;
+            }
+
+            .hero h1 {
+                font-size: 38px;
+            }
+
+            .hero h3 {
+                font-size: 21px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <h2>AVIN RAJ P</h2>
+
+       <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+<a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+    </header>
+
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <h1>Hello, I'm <span>Avin Raj</span></h1>
+
+            <h3>Embedded Systems & IoT Enthusiast</h3>
+
+            <p>
+                Third-year Electrical and Electronics Engineering student
+                passionate about Embedded Systems, IoT, Electronics and
+                intelligent energy solutions.
+            </p>
+
+            <a href="#projects" class="button">View My Projects</a>
+
+            <a href="#contact" class="button">Contact Me</a>
+
+        </div>
+
+    </section>
+
+
+    <section class="about" id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am an EEE student interested in combining electronics,
+            programming and embedded technologies to develop practical
+            engineering solutions. I enjoy working with microcontrollers,
+            sensors, IoT technologies and energy-management systems.
+        </p>
+
+    </section>
+<section class="about" id="skills">
+
+    <h2>My Skills</h2>
+
+    <p>
+        <strong>Programming:</strong> C, Java, Python
+    </p>
+
+    <p>
+        <strong>Embedded Systems:</strong> Arduino, ESP32, 8051
+    </p>
+
+    <p>
+        <strong>Electronics:</strong> Sensors, PCB Design, Proteus, Keil, LTspice
+    </p>
+
+    <p>
+        <strong>Communication:</strong> MQTT, HTTP, I2C, UART
+    </p>
+
+    <p>
+        <strong>Tools:</strong> MATLAB/Simulink, Arduino IDE
+    </p>
+
+</section>
+
+
+    <section class="about" id="projects">
+
+    <h2>My Projects</h2>
+
+    <div class="project-container">
+
+        <div class="project-card">
+
+            <h3>Battery Health-Aware Energy Management System</h3>
+
+            <p>
+                A solar microgrid energy-management system that monitors
+                battery voltage, current and temperature while considering
+                battery health for intelligent energy allocation.
+            </p>
+
+            <p>
+                <strong>Technologies:</strong>
+                Arduino, INA219, ADS1115, DS18B20, MATLAB/Simulink
+            </p>
+
+        </div>
+
+
+        <div class="project-card">
+
+            <h3>Solar Power Smart Mini Cold Storage System</h3>
+
+            <p>
+                A solar-powered mini cold-storage concept designed to help
+                maintain suitable storage conditions for fresh vegetables
+                using monitoring and control techniques.
+            </p>
+
+            <p>
+                <strong>Focus:</strong>
+                Solar Energy, Embedded Systems, Sensors and Automation
+            </p>
+
+        </div>
+
+
+        <div class="project-card">
+
+            <h3>Embedded Systems & IoT Projects</h3>
+
+            <p>
+                Hands-on projects involving microcontrollers, sensors,
+                communication protocols and electronic control systems.
+            </p>
+
+            <p>
+                <strong>Technologies:</strong>
+                ESP32, 8051, Arduino, MQTT, I2C, UART and HTTP
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="about" id="internship">
+
+    <h2>Internship</h2>
+
+    <div class="project-container">
+
+        <div class="project-card">
+
+            <h3>NLC India Limited (NLCIL)</h3>
+
+            <p>
+                <strong>Role:</strong> EEE Intern
+            </p>
+
+            <p>
+                <strong>Area:</strong> Transformer Side
+            </p>
+
+            <p>
+                <strong>Duration:</strong> 15 Days
+            </p>
+
+            <p>
+                Gained practical exposure to electrical systems,
+                transformer-related operations and industrial practices.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="about" id="certifications">
+
+    <h2>Certifications</h2>
+
+    <div class="project-container">
+
+        <div class="project-card">
+            <h3>NPTEL Certifications</h3>
+            <p>
+                Fuzzy Sets, Logic and Systems Applications
+            </p>
+            <p>
+                Sustainable Power Generation
+            </p>
+            <p>
+                Java Programming
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Embedded Systems & IoT</h3>
+            <p>
+                Embedded Systems and IoT training with hands-on
+                experience in Arduino, MQTT, I2C, UART and HTTP.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>PCB Design</h3>
+            <p>
+                Hands-on learning in PCB design, schematic creation
+                and electronic component integration.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<section class="about" id="achievements">
+
+    <h2>Achievements</h2>
+
+    <div class="project-container">
+
+        <div class="project-card">
+            <h3>National-Level Project Competition</h3>
+            <p>
+                Achieved 2nd Runner Up in a National-Level
+                Project Competition.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Best Library User</h3>
+            <p>
+                Recognized as Best Library User for
+                the academic year 2025–2026.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Maraitha Marapu</h3>
+            <p>
+                Secured 3rd Prize in the Maraitha Marapu
+                competition.
+            </p>
+        </div>
+<div class="project-card">
+    <h3>Empowerment Award 2025</h3>
+    <p>
+        Received the Empowerment Award in 2025
+        in recognition of achievement and performance.
+    </p>
+</div>
+
+<div class="project-card">
+    <h3>Academic Rank Holder</h3>
+    <p>
+        Secured 2nd Rank in both 10th and 12th standard
+        academic performance.
+    </p>
+</div>
+
+    </div>
+
+</section>
+
+
+
+    <section class="about" id="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>
+        Interested in connecting or discussing
+        engineering projects? Feel free to reach out!
+    </p>
+
+    <p>
+        <strong>Email:</strong>
+        <a href="mailto:avin2005raj@gmail.com">
+            avin2005raj@gmail.com
+        </a>
+    </p>
+
+    <p>
+        <strong>LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/avin-raj-0704ba308"
+           target="_blank">
+            View My LinkedIn
+        </a>
+    </p>
+
+</section>
+<p>
+    <strong>GitHub:</strong>
+    <a href="https://github.com/YOUR_USERNAME"
+       target="_blank">
+        View My GitHub
+    </a>
+</p>
+    </section>
+
+
+    <footer>
+
+        <p>© 2026 Avin Raj. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+
+</html>
